@@ -1,5 +1,7 @@
-# mirai-console-plugin-template
+# Phi-Util
 
-[Mirai Console](https://github.com/mamoe/mirai-console) 插件模板, 使用 Kotlin + Gradle.
+基于Mirai Console，使用 Kotlin + Gradle 构建的 Phigros 辅助工具。
 
-[如何使用](https://github.com/project-mirai/how-to-use-plugin-template)
+## 构建
+
+使用`gradle`任务`gradle buildPlugin`可以在`build/mirai/`下得到目标Jar包。生成的文件直接丢进mcl的plugins目录下即可使用。
